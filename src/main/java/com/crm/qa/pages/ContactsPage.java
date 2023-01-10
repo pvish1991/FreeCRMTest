@@ -61,8 +61,8 @@ public class ContactsPage extends TestBase {
 			selectBtn.click();
 			
 			selectBtn.findElement(By.xpath("//span[contains(text(),'"+ctg+"')]")).click();
-			//WebElement ls= driver.findElement(By.xpath("//div[@name='category' and @role='listbox']//span[contains(text(),'"+ctg+"')]"));
-			//ls.click();
+			WebElement ls= driver.findElement(By.xpath("//div[@name='category' and @role='listbox']//span[contains(text(),'"+ctg+"')]"));
+			ls.click();
 			
 			//Thread.sleep(5000);
 			Select select = new Select(driver.findElement(By.xpath("//div[@name='category' and @role='listbox']")));

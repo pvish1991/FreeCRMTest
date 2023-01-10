@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="3" name="TestSuite" time="113.597" errors="0" skipped="0">
+<testsuite tests="15" failures="3" name="TestSuite" time="26.293" errors="0" skipped="0">
   <properties>
-    <property name="JOB_NAME" value="FreeCRMTestJob"/>
+    <property name="JOB_NAME" value="POMProjectTestJob"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="Maven_HOME" value="C:\Users\pvish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/1/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/POMProjectTestJob/1/display/redirect?page=tests"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="JENKINS_HOME" value="C:\Users\pvish\.jenkins"/>
     <property name="HUDSON_SERVER_COOKIE" value="96cfd8eee65bfb71"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="TEMP" value="C:\Users\pvish\AppData\Local\Temp"/>
@@ -24,8 +24,8 @@
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="FreeCRMTestJob"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/1/display/redirect?page=changes"/>
+    <property name="JOB_BASE_NAME" value="POMProjectTestJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/POMProjectTestJob/1/display/redirect?page=changes"/>
     <property name="BUILD_DISPLAY_NAME" value="#1"/>
     <property name="OneDrive" value="C:\Users\pvish\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
@@ -46,32 +46,32 @@
     <property name="file.separator" value="\"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="61.0"/>
-    <property name="=::" value="::\"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
     <property name="user.country" value="CA"/>
     <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/1/display/redirect"/>
+    <property name="=ExitCode" value="00000000"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/POMProjectTestJob/1/display/redirect"/>
     <property name="TMP" value="C:\Users\pvish\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/1/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/POMProjectTestJob/1/display/redirect?page=artifacts"/>
     <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
     <property name="user.variant" value=""/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/POMProjectTestJob/display/redirect"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="LAPTOP-NVQRL7R7"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-17.0.5"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
     <property name="HOMEPATH" value="\Users\pvish"/>
     <property name="COMPUTERNAME" value="LAPTOP-NVQRL7R7"/>
     <property name="user.script" value=""/>
     <property name="user.home" value="C:\Users\pvish"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-FreeCRMTestJob-1"/>
+    <property name="BUILD_TAG" value="jenkins-POMProjectTestJob-1"/>
     <property name="JENKINS_SERVER_COOKIE" value="96cfd8eee65bfb71"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -79,7 +79,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="USERPROFILE" value="C:\Users\pvish"/>
     <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\pvish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\QA\apache-ant-1.10.12\bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\QA\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\Users\pvish\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\pvish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\QA\apache-ant-1.10.12\bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\QA\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\Program Files\Git\cmd;C:\Users\pvish\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="APPDATA" value="C:\Users\pvish\AppData\Roaming"/>
@@ -87,9 +87,9 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Users\pvish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
     <property name="java.class.path" value="C:\Users\pvish\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.14.jar;C:\Users\pvish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\pvish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\pvish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\pvish\.jenkins\war\WEB-INF\lib\remoting-3085.vc4c6977c075a.jar C:\Users\pvish\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar C:\Users\pvish\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar 61435"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\pvish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\pvish\.jenkins\war\WEB-INF\lib\remoting-3085.vc4c6977c075a.jar C:\Users\pvish\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar C:\Users\pvish\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar 63374"/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="Path" value="C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\QA\apache-ant-1.10.12\bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\QA\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\Users\pvish\AppData\Local\Microsoft\WindowsApps;"/>
+    <property name="Path" value="C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\QA\apache-ant-1.10.12\bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\QA\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\Program Files\Git\cmd;C:\Users\pvish\AppData\Local\Microsoft\WindowsApps;"/>
     <property name="jdk.debug" value="release"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -107,11 +107,11 @@
     <property name="PATH+MAVEN" value="C:\Users\pvish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMTestJob/1/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/POMProjectTestJob/1/"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="os.arch" value="amd64"/>
-    <property name="user.dir" value="C:\QA\Selenium_WorkSpace\FreeCRMTest"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/FreeCRMTestJob/"/>
+    <property name="user.dir" value="C:\QA\Selenium_WorkSpace\POMProjectTest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/POMProjectTestJob/"/>
     <property name="LOGONSERVER" value="\\LAPTOP-NVQRL7R7"/>
     <property name="USERDOMAIN" value="LAPTOP-NVQRL7R7"/>
     <property name="line.separator" value="
@@ -126,30 +126,34 @@
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Users\pvish\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar"/>
-    <property name="WORKSPACE_TMP" value="C:\Users\pvish\.jenkins\workspace\FreeCRMTestJob@tmp"/>
-    <property name="WORKSPACE" value="C:\Users\pvish\.jenkins\workspace\FreeCRMTestJob"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\pvish\.jenkins\workspace\POMProjectTestJob@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\pvish\.jenkins\workspace\POMProjectTestJob"/>
     <property name="maven3.interceptor.common" value="C:\Users\pvish\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar"/>
     <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
     <property name="java.specification.version" value="17"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
   </properties>
-  <testcase classname="com.crm.qa.testcases.ConatactsPageTest" name="verifyContactsPageLable" time="0.056"/>
-  <testcase classname="com.crm.qa.testcases.ConatactsPageTest" name="selectNewcontactspage" time="33.782">
-    <failure message="Unable to locate element: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+  <testcase classname="com.crm.qa.testcases.ConatactsPageTest" name="verifyContactsPageLable" time="0.089"/>
+  <testcase classname="com.crm.qa.testcases.ConatactsPageTest" name="selectNewcontactspage" time="3.865">
+    <failure message="stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [812a6259-fa02-406d-8f43-7f637e2389d0, findElement {using=xpath, value=//div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:4002, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6372, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:4002/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 812a6259-fa02-406d-8f43-7f637e2389d0" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf9c78a207340837e207ef0e0873d689, clickElement {id=b99fe90b-ef5a-44f3-a2da-36b3296d9a5c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63445/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bf9c78a207340837e207ef0e0873d689)] -&gt; xpath: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]]
+Session ID: bf9c78a207340837e207ef0e0873d689" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [812a6259-fa02-406d-8f43-7f637e2389d0, findElement {using=xpath, value=//div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:4002, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6372, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:4002/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 812a6259-fa02-406d-8f43-7f637e2389d0
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf9c78a207340837e207ef0e0873d689, clickElement {id=b99fe90b-ef5a-44f3-a2da-36b3296d9a5c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63445/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bf9c78a207340837e207ef0e0873d689)] -&gt; xpath: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]]
+Session ID: bf9c78a207340837e207ef0e0873d689
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -162,159 +166,45 @@ Session ID: 812a6259-fa02-406d-8f43-7f637e2389d0
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
 	at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:61)
-	at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:68)
+	at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:73)
 </failure>
-    <system-err>1671681301329	Marionette	INFO	Stopped listening on port 61463
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-sendPing@resource://gre/modules/EventPing.jsm:51:30
-_submitPing@resource://gre/modules/EventPing.jsm:229:12
-shutdown@resource://gre/modules/EventPing.jsm:112:10
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
-shutdown/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
-shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
-shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  TelemetryController: shutting down
-          Phase: profile-before-change-telemetry
-          State: Error getting state: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot; at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
-_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
-setupTelemetry/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:917:18
-safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
-Barrier/addBlocker/promise&lt;@resource://gre/modules/AsyncShutdown.jsm:751:20
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_JavaScript error: resource://gre/modules/AsyncShutdown.jsmfront.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
-r, emoveAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
-shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1235:42
-observe@resource://gre/modules/line 703: Error: Phase &quot;profile-before-change&quot; is finishedAsyncShutdown.jsm:560:16
-
-, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-1671681303222	geckodriver	INFO	Listening on 127.0.0.1:49124
-1671681303240	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;--remote-debugging-port&quot; &quot;4002&quot; &quot;--remote-allow-hosts&quot; &quot;localhost&quot; &quot;--remote-allow-origins&quot; &quot;http://127.0.0.1:4002/,http://localhost:4002/,http://[::1]:4002/&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\pvish\\AppData\\Local\\Temp\\rust_mozprofile5qlnPj&quot;
-1671681303605	Marionette	INFO	Marionette enabled
-1671681303611	Marionette	INFO	Listening on port 61530
-Read port: 61530
-WebDriver BiDi listening on ws://127.0.0.1:4002
-1671681303735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\pvish\\AppData\\Local\\Temp\\rust_mozprofile5qlnPj\\search.json.mozlz4&quot;, (void 0)))
-DevTools listening on ws://127.0.0.1:4002/devtools/browser/74b34a03-6880-4874-b3fb-233ab0c5439d
-JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
-JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can&apos;t find profile directory.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can&apos;t find profile directory.
-console.warn: LoginRecipes: &quot;Falling back to a synchronous message for: https://ui.freecrm.com.&quot;
+    <system-err>Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 16978
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan. 07, 2023 1:04:17 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
 </system-err>
   </testcase>
-  <testcase classname="com.crm.qa.testcases.ConatactsPageTest" name="selectNewcontactspage" time="34.195">
-    <failure message="Unable to locate element: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+  <testcase classname="com.crm.qa.testcases.ConatactsPageTest" name="selectNewcontactspage" time="4.258">
+    <failure message="stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [afda1f0f-4ca0-4156-aa65-6b5c2699b23a, findElement {using=xpath, value=//div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:10082, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21452, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:10082/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: afda1f0f-4ca0-4156-aa65-6b5c2699b23a" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2b84002ca7785e1cb3121bcb29abe9b3, clickElement {id=5dd0c773-0e1e-4d4b-a6db-8383a05696ad}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63505}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63505/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2b84002ca7785e1cb3121bcb29abe9b3)] -&gt; xpath: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]]
+Session ID: 2b84002ca7785e1cb3121bcb29abe9b3" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [afda1f0f-4ca0-4156-aa65-6b5c2699b23a, findElement {using=xpath, value=//div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:10082, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21452, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:10082/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: afda1f0f-4ca0-4156-aa65-6b5c2699b23a
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2b84002ca7785e1cb3121bcb29abe9b3, clickElement {id=5dd0c773-0e1e-4d4b-a6db-8383a05696ad}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63505}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63505/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2b84002ca7785e1cb3121bcb29abe9b3)] -&gt; xpath: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]]
+Session ID: 2b84002ca7785e1cb3121bcb29abe9b3
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -327,159 +217,45 @@ Session ID: afda1f0f-4ca0-4156-aa65-6b5c2699b23a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
 	at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:61)
-	at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:68)
+	at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:73)
 </failure>
-    <system-err>1671681348279	Marionette	INFO	Stopped listening on port 61530
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-sendPing@resource://gre/modules/EventPing.jsm:51:30
-_submitPing@resource://gre/modules/EventPing.jsm:229:12
-shutdown@resource://gre/modules/EventPing.jsm:112:10
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
-shutdown/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
-shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
-shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  TelemetryController: shutting down
-          Phase: profile-before-change-telemetry
-          State: Error getting state: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot; at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
-_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
-setupTelemetry/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:917:18
-safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
-Barrier/addBlocker/promise&lt;@resource://gre/modules/AsyncShutdown.jsm:751:20
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
-shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1235:42
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-1671681349246	geckodriver	INFO	Listening on 127.0.0.1:10292
-1671681349263	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;--remote-debugging-port&quot; &quot;10082&quot; &quot;--remote-allow-hosts&quot; &quot;localhost&quot; &quot;--remote-allow-origins&quot; &quot;http://127.0.0.1:10082/,http://localhost:10082/,http://[::1]:10082/&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\pvish\\AppData\\Local\\Temp\\rust_mozprofileaOZTeg&quot;
-1671681349620	Marionette	INFO	Marionette enabled
-1671681349626	Marionette	INFO	Listening on port 61605
-WebDriver BiDi listening on ws://127.0.0.1:10082
-Read port: 61605
-1671681349837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\pvish\\AppData\\Local\\Temp\\rust_mozprofileaOZTeg\\search.json.mozlz4&quot;, (void 0)))
-DevTools listening on ws://127.0.0.1:10082/devtools/browser/14b37bb0-896b-4a75-8f08-117f28ce74b6
-JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
-JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can&apos;t find profile directory.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can&apos;t find profile directory.
-console.warn: LoginRecipes: &quot;Falling back to a synchronous message for: https://ui.freecrm.com.&quot;
+    <system-err>Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 11997
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan. 07, 2023 1:04:35 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
 </system-err>
   </testcase>
-  <testcase classname="com.crm.qa.testcases.ConatactsPageTest" name="selectNewcontactspage" time="34.281">
-    <failure message="Unable to locate element: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+  <testcase classname="com.crm.qa.testcases.ConatactsPageTest" name="selectNewcontactspage" time="4.274">
+    <failure message="stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [83c6cc1c-2d56-4f8d-b472-df8c2f2cc6d1, findElement {using=xpath, value=//div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:26285, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23716, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26285/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 83c6cc1c-2d56-4f8d-b472-df8c2f2cc6d1" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f1e827111deccd8e95ffde3d4aee09fd, clickElement {id=304f9f3a-7272-4fb5-8949-f95934a55f23}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63563}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63563/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f1e827111deccd8e95ffde3d4aee09fd)] -&gt; xpath: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]]
+Session ID: f1e827111deccd8e95ffde3d4aee09fd" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [83c6cc1c-2d56-4f8d-b472-df8c2f2cc6d1, findElement {using=xpath, value=//div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:26285, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23716, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26285/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 83c6cc1c-2d56-4f8d-b472-df8c2f2cc6d1
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f1e827111deccd8e95ffde3d4aee09fd, clickElement {id=304f9f3a-7272-4fb5-8949-f95934a55f23}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63563}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63563/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f1e827111deccd8e95ffde3d4aee09fd)] -&gt; xpath: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]]
+Session ID: f1e827111deccd8e95ffde3d4aee09fd
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -492,152 +268,33 @@ Session ID: 83c6cc1c-2d56-4f8d-b472-df8c2f2cc6d1
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
 	at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:61)
-	at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:68)
+	at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:73)
 </failure>
-    <system-err>1671681395009	Marionette	INFO	Stopped listening on port 61605
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-sendPing@resource://gre/modules/EventPing.jsm:51:30
-_submitPing@resource://gre/modules/EventPing.jsm:229:12
-shutdown@resource://gre/modules/EventPing.jsm:112:10
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
-shutdown/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
-shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
-shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  TelemetryController: shutting down
-          Phase: profile-before-change-telemetry
-          State: Error getting state: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot; at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
-_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
-setupTelemetry/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:917:18
-safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
-Barrier/addBlocker/promise&lt;@resource://gre/modules/AsyncShutdown.jsm:751:20
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
-shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1235:42
-observe@resource://gre/modules/AsyncShutdown.jsm:560:16
-
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
-1671681396106	geckodriver	INFO	Listening on 127.0.0.1:24189
-1671681396128	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;--remote-debugging-port&quot; &quot;26285&quot; &quot;--remote-allow-hosts&quot; &quot;localhost&quot; &quot;--remote-allow-origins&quot; &quot;http://127.0.0.1:26285/,http://localhost:26285/,http://[::1]:26285/&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\pvish\\AppData\\Local\\Temp\\rust_mozprofileDaZijw&quot;
-1671681396474	Marionette	INFO	Marionette enabled
-1671681396480	Marionette	INFO	Listening on port 61711
-WebDriver BiDi listening on ws://127.0.0.1:26285
-Read port: 61711
-1671681396732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\pvish\\AppData\\Local\\Temp\\rust_mozprofileDaZijw\\search.json.mozlz4&quot;, (void 0)))
-DevTools listening on ws://127.0.0.1:26285/devtools/browser/d24561c2-2d54-45ec-b39a-95efc998ed8f
-JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
-JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can&apos;t find profile directory.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can&apos;t find profile directory.
-console.warn: LoginRecipes: &quot;Falling back to a synchronous message for: https://ui.freecrm.com.&quot;
+    <system-err>Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 37291
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan. 07, 2023 1:04:53 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
 </system-err>
   </testcase>
-  <testcase classname="com.crm.qa.testcases.DocumentsPageTest" name="verifyDocumentsPageLable" time="0.025"/>
-  <testcase classname="com.crm.qa.testcases.DocumentsPageTest" name="SelectNewDocumentPage" time="2.41"/>
-  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageTitletest" time="0.004"/>
-  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyuserName" time="0.654"/>
-  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyContactsLink" time="0.901"/>
-  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyDealsLink" time="0.824"/>
-  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyCompaniesLink" time="0.761"/>
-  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyDocumentsLink" time="0.685"/>
-  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.003"/>
-  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="crmLogoImagetest" time="0.027"/>
-  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginTest" time="4.989"/>
+  <testcase classname="com.crm.qa.testcases.DocumentsPageTest" name="verifyDocumentsPageLable" time="0.106"/>
+  <testcase classname="com.crm.qa.testcases.DocumentsPageTest" name="SelectNewDocumentPage" time="2.412"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageTitletest" time="0.018"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyuserName" time="1.03"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyContactsLink" time="0.832"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyDealsLink" time="1.73"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyCompaniesLink" time="0.821"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyDocumentsLink" time="0.858"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.01"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="crmLogoImagetest" time="0.053"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginTest" time="5.937"/>
 </testsuite>

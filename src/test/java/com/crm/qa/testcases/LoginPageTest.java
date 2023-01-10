@@ -30,7 +30,7 @@ public class LoginPageTest extends TestBase {
 	@Test(priority = 1)
 	public void loginPageTitleTest() {
 		String title = LoginPage.validateLoginPageTitle();
-		//Assert.assertEquals(title, "Free CRM with Free calling and auto dialing features");
+		Assert.assertEquals(title, "Free CRM #1 cloud software for any business large or small");
 	}
 	
 	@Test(priority = 2)

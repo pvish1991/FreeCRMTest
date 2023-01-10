@@ -21,7 +21,7 @@ public class TestBase {
 		
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\QA\\Selenium_WorkSpace\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\confiq\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\QA\\Selenium_WorkSpace\\POMProjectTest\\src\\main\\java\\com\\crm\\qa\\confiq\\config.properties");
 			prop.load(ip);
 			
 		}catch (FileNotFoundException e) {

@@ -10,11 +10,11 @@ public class LoginPage extends TestBase {
 	
 	//Page Factory or Object Repository (OR):
 	
-	@FindBy(xpath = "//img[contains(@class,'img-responsive')]")
-	WebElement crmLogo;
+	@FindBy(css="span[class='icon icon-xs mdi-chart-bar']")
+		WebElement crmLogo;
 	
 	//@FindBy(tagName = "Login")
-	@FindBy(xpath = "//a[contains(text(),'Login')]")
+	@FindBy(xpath = "//*[contains(text(), 'Log In')]")
 	WebElement Loginlink;
 	
 	@FindBy(name= "email")

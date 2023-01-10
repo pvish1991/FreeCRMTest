@@ -209,14 +209,16 @@
                   </a> <!-- selectNewcontactspage(Jhon, William, Bill, Amazon, Lead) -->
                   <span class="method-name">selectNewcontactspage</span>
                   <span class="parameters">(Jhon,William,Bill,Amazon,Lead)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [afda1f0f-4ca0-4156-aa65-6b5c2699b23a, findElement {using=xpath, value=//div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:10082, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21452, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:10082/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: afda1f0f-4ca0-4156-aa65-6b5c2699b23a
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2b84002ca7785e1cb3121bcb29abe9b3, clickElement {id=5dd0c773-0e1e-4d4b-a6db-8383a05696ad}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63505}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63505/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2b84002ca7785e1cb3121bcb29abe9b3)] -&gt; xpath: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]]
+Session ID: 2b84002ca7785e1cb3121bcb29abe9b3
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -224,17 +226,14 @@ Session ID: afda1f0f-4ca0-4156-aa65-6b5c2699b23a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
 	at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:61)
-	at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:68)
+	at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:73)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 42 stack frames
+... Removed 46 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -244,14 +243,16 @@ Session ID: afda1f0f-4ca0-4156-aa65-6b5c2699b23a
                   </a> <!-- selectNewcontactspage(Kishore, Kumar, Rana, CRA, Lead) -->
                   <span class="method-name">selectNewcontactspage</span>
                   <span class="parameters">(Kishore,Kumar,Rana,CRA,Lead)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [83c6cc1c-2d56-4f8d-b472-df8c2f2cc6d1, findElement {using=xpath, value=//div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:26285, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23716, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26285/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 83c6cc1c-2d56-4f8d-b472-df8c2f2cc6d1
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f1e827111deccd8e95ffde3d4aee09fd, clickElement {id=304f9f3a-7272-4fb5-8949-f95934a55f23}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63563}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63563/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f1e827111deccd8e95ffde3d4aee09fd)] -&gt; xpath: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]]
+Session ID: f1e827111deccd8e95ffde3d4aee09fd
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -259,17 +260,14 @@ Session ID: 83c6cc1c-2d56-4f8d-b472-df8c2f2cc6d1
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
 	at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:61)
-	at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:68)
+	at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:73)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 42 stack frames
+... Removed 45 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -279,14 +277,16 @@ Session ID: 83c6cc1c-2d56-4f8d-b472-df8c2f2cc6d1
                   </a> <!-- selectNewcontactspage(Tom, Rom, TR, Google, Customer) -->
                   <span class="method-name">selectNewcontactspage</span>
                   <span class="parameters">(Tom,Rom,TR,Google,Customer)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [812a6259-fa02-406d-8f43-7f637e2389d0, findElement {using=xpath, value=//div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:4002, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6372, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:4002/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 812a6259-fa02-406d-8f43-7f637e2389d0
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf9c78a207340837e207ef0e0873d689, clickElement {id=b99fe90b-ef5a-44f3-a2da-36b3296d9a5c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63445/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bf9c78a207340837e207ef0e0873d689)] -&gt; xpath: //div[@name=&apos;category&apos; and @role=&apos;listbox&apos;]]
+Session ID: bf9c78a207340837e207ef0e0873d689
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -294,17 +294,14 @@ Session ID: 812a6259-fa02-406d-8f43-7f637e2389d0
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
 	at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:61)
-	at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:68)
+	at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:73)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 42 stack frames
+... Removed 46 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -482,70 +479,70 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(15);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'selectNewcontactspage')
-data.setCell(0, 2, 'com.crm.qa.testcases.ConatactsPageTest')
-data.setCell(0, 3, 34279);
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.crm.qa.testcases.LoginPageTest')
+data.setCell(0, 3, 5937);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'selectNewcontactspage')
 data.setCell(1, 2, 'com.crm.qa.testcases.ConatactsPageTest')
-data.setCell(1, 3, 34192);
+data.setCell(1, 3, 4271);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'selectNewcontactspage')
 data.setCell(2, 2, 'com.crm.qa.testcases.ConatactsPageTest')
-data.setCell(2, 3, 33777);
+data.setCell(2, 3, 4254);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginTest')
-data.setCell(3, 2, 'com.crm.qa.testcases.LoginPageTest')
-data.setCell(3, 3, 4989);
+data.setCell(3, 1, 'selectNewcontactspage')
+data.setCell(3, 2, 'com.crm.qa.testcases.ConatactsPageTest')
+data.setCell(3, 3, 3843);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'SelectNewDocumentPage')
 data.setCell(4, 2, 'com.crm.qa.testcases.DocumentsPageTest')
-data.setCell(4, 3, 2409);
+data.setCell(4, 3, 2412);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyContactsLink')
+data.setCell(5, 1, 'verifyDealsLink')
 data.setCell(5, 2, 'com.crm.qa.testcases.HomePageTest')
-data.setCell(5, 3, 901);
+data.setCell(5, 3, 1731);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyDealsLink')
+data.setCell(6, 1, 'verifyuserName')
 data.setCell(6, 2, 'com.crm.qa.testcases.HomePageTest')
-data.setCell(6, 3, 824);
+data.setCell(6, 3, 1029);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyCompaniesLink')
+data.setCell(7, 1, 'verifyDocumentsLink')
 data.setCell(7, 2, 'com.crm.qa.testcases.HomePageTest')
-data.setCell(7, 3, 761);
+data.setCell(7, 3, 858);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyDocumentsLink')
+data.setCell(8, 1, 'verifyContactsLink')
 data.setCell(8, 2, 'com.crm.qa.testcases.HomePageTest')
-data.setCell(8, 3, 686);
+data.setCell(8, 3, 833);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyuserName')
+data.setCell(9, 1, 'verifyCompaniesLink')
 data.setCell(9, 2, 'com.crm.qa.testcases.HomePageTest')
-data.setCell(9, 3, 653);
+data.setCell(9, 3, 822);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyContactsPageLable')
-data.setCell(10, 2, 'com.crm.qa.testcases.ConatactsPageTest')
-data.setCell(10, 3, 52);
+data.setCell(10, 1, 'verifyDocumentsPageLable')
+data.setCell(10, 2, 'com.crm.qa.testcases.DocumentsPageTest')
+data.setCell(10, 3, 106);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'crmLogoImagetest')
-data.setCell(11, 2, 'com.crm.qa.testcases.LoginPageTest')
-data.setCell(11, 3, 28);
+data.setCell(11, 1, 'verifyContactsPageLable')
+data.setCell(11, 2, 'com.crm.qa.testcases.ConatactsPageTest')
+data.setCell(11, 3, 82);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyDocumentsPageLable')
-data.setCell(12, 2, 'com.crm.qa.testcases.DocumentsPageTest')
-data.setCell(12, 3, 25);
+data.setCell(12, 1, 'crmLogoImagetest')
+data.setCell(12, 2, 'com.crm.qa.testcases.LoginPageTest')
+data.setCell(12, 3, 53);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'loginPageTitleTest')
-data.setCell(13, 2, 'com.crm.qa.testcases.LoginPageTest')
-data.setCell(13, 3, 4);
+data.setCell(13, 1, 'verifyHomePageTitletest')
+data.setCell(13, 2, 'com.crm.qa.testcases.HomePageTest')
+data.setCell(13, 3, 18);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifyHomePageTitletest')
-data.setCell(14, 2, 'com.crm.qa.testcases.HomePageTest')
-data.setCell(14, 3, 3);
+data.setCell(14, 1, 'loginPageTitleTest')
+data.setCell(14, 2, 'com.crm.qa.testcases.LoginPageTest')
+data.setCell(14, 3, 11);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -578,194 +575,194 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyContactsPageLable</span>
-                <span class="method-start">12749 ms</span>
+                <span class="method-start">14794 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12803 ms</span>
+                <span class="method-start">14881 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">14651 ms</span>
+                <span class="method-start">17752 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">selectNewcontactspage(Tom, Rom, TR, Google, Customer)</span>
-                <span class="method-start">25973 ms</span>
+                <span class="method-start">30411 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">59755 ms</span>
+                <span class="method-start">34274 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">60674 ms</span>
+                <span class="method-start">35480 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">selectNewcontactspage(Jhon, William, Bill, Amazon, Lead)</span>
-                <span class="method-start">72289 ms</span>
+                <span class="method-start">48131 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">106484 ms</span>
+                <span class="method-start">52388 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">107508 ms</span>
+                <span class="method-start">53562 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">selectNewcontactspage(Kishore, Kumar, Rana, CRA, Lead)</span>
-                <span class="method-start">118909 ms</span>
+                <span class="method-start">66240 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">153190 ms</span>
+                <span class="method-start">70514 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crm.qa.testcases.DocumentsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">154190 ms</span>
+                <span class="method-start">71697 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyDocumentsPageLable</span>
-                <span class="method-start">165790 ms</span>
+                <span class="method-start">84768 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">165815 ms</span>
+                <span class="method-start">84875 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">165816 ms</span>
+                <span class="method-start">84877 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SelectNewDocumentPage</span>
-                <span class="method-start">177235 ms</span>
+                <span class="method-start">99273 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">179645 ms</span>
+                <span class="method-start">101688 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crm.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">179646 ms</span>
+                <span class="method-start">101689 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageTitletest</span>
-                <span class="method-start">190642 ms</span>
+                <span class="method-start">114408 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">190646 ms</span>
+                <span class="method-start">114426 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">191732 ms</span>
+                <span class="method-start">115433 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyuserName</span>
-                <span class="method-start">202821 ms</span>
+                <span class="method-start">127645 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">203475 ms</span>
+                <span class="method-start">128675 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">204594 ms</span>
+                <span class="method-start">129886 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyContactsLink</span>
-                <span class="method-start">215186 ms</span>
+                <span class="method-start">141628 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">216087 ms</span>
+                <span class="method-start">142463 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">217064 ms</span>
+                <span class="method-start">143145 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyDealsLink</span>
-                <span class="method-start">228367 ms</span>
+                <span class="method-start">155570 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">229191 ms</span>
+                <span class="method-start">157303 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">230271 ms</span>
+                <span class="method-start">158237 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCompaniesLink</span>
-                <span class="method-start">240761 ms</span>
+                <span class="method-start">169535 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">241523 ms</span>
+                <span class="method-start">170358 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">242581 ms</span>
+                <span class="method-start">171220 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyDocumentsLink</span>
-                <span class="method-start">253278 ms</span>
+                <span class="method-start">183766 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">253964 ms</span>
+                <span class="method-start">184625 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crm.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">254989 ms</span>
+                <span class="method-start">185468 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">261121 ms</span>
+                <span class="method-start">191393 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">261125 ms</span>
+                <span class="method-start">191404 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">262282 ms</span>
+                <span class="method-start">192076 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">crmLogoImagetest</span>
-                <span class="method-start">268409 ms</span>
+                <span class="method-start">197115 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">268437 ms</span>
+                <span class="method-start">197169 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">269416 ms</span>
+                <span class="method-start">197769 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">275196 ms</span>
+                <span class="method-start">203256 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">280185 ms</span>
+                <span class="method-start">209194 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

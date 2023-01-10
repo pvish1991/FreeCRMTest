@@ -1,29 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+<testng-results ignored="0" total="15" passed="12" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-21T15:11:40 GMT-05:00" name="Default suite" finished-at="2022-12-21T15:13:48 GMT-05:00" duration-ms="127783">
+  <suite started-at="2023-01-07T13:30:11 GMT-05:00" name="Suite" finished-at="2023-01-07T13:33:35 GMT-05:00" duration-ms="204098">
     <groups>
     </groups>
-    <test started-at="2022-12-21T15:11:40 GMT-05:00" name="Default test" finished-at="2022-12-21T15:13:48 GMT-05:00" duration-ms="127783">
-      <class name="com.crm.qa.testcases.ConatactsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@3e27aa33]" started-at="2022-12-21T15:11:40 GMT-05:00" name="setUp" finished-at="2022-12-21T15:11:53 GMT-05:00" duration-ms="13236" status="PASS">
+    <test started-at="2023-01-07T13:30:11 GMT-05:00" name="Test" finished-at="2023-01-07T13:33:35 GMT-05:00" duration-ms="204098">
+      <class name="com.crm.qa.testcases.DocumentsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DocumentsPageTest@795509d9]" started-at="2023-01-07T13:33:12 GMT-05:00" name="setUp" finished-at="2023-01-07T13:33:22 GMT-05:00" duration-ms="10741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyContactsPageLable()[pri:1, instance:com.crm.qa.testcases.ConatactsPageTest@3e27aa33]" started-at="2022-12-21T15:11:53 GMT-05:00" name="verifyContactsPageLable" finished-at="2022-12-21T15:11:53 GMT-05:00" duration-ms="42" status="PASS">
+        <test-method signature="verifyDocumentsPageLable()[pri:1, instance:com.crm.qa.testcases.DocumentsPageTest@795509d9]" started-at="2023-01-07T13:33:22 GMT-05:00" name="verifyDocumentsPageLable" finished-at="2023-01-07T13:33:22 GMT-05:00" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactsPageLable -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@3e27aa33]" started-at="2022-12-21T15:11:53 GMT-05:00" name="tearDown" finished-at="2022-12-21T15:11:54 GMT-05:00" duration-ms="889" status="PASS">
+        </test-method> <!-- verifyDocumentsPageLable -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DocumentsPageTest@795509d9]" started-at="2023-01-07T13:33:22 GMT-05:00" name="setUp" finished-at="2023-01-07T13:33:33 GMT-05:00" duration-ms="10523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DocumentsPageTest@795509d9]" started-at="2023-01-07T13:33:22 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:33:22 GMT-05:00" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@3e27aa33]" started-at="2022-12-21T15:11:55 GMT-05:00" name="setUp" finished-at="2022-12-21T15:12:08 GMT-05:00" duration-ms="12523" status="PASS">
+        <test-method signature="SelectNewDocumentPage()[pri:2, instance:com.crm.qa.testcases.DocumentsPageTest@795509d9]" started-at="2023-01-07T13:33:33 GMT-05:00" name="SelectNewDocumentPage" finished-at="2023-01-07T13:33:35 GMT-05:00" duration-ms="2320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectNewDocumentPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DocumentsPageTest@795509d9]" started-at="2023-01-07T13:33:35 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:33:35 GMT-05:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.DocumentsPageTest -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:30:35 GMT-05:00" name="setUp" finished-at="2023-01-07T13:30:45 GMT-05:00" duration-ms="10166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="selectNewcontactspage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.ConatactsPageTest@3e27aa33]" started-at="2022-12-21T15:12:08 GMT-05:00" name="selectNewcontactspage" data-provider="getCRMTestData" finished-at="2022-12-21T15:12:11 GMT-05:00" duration-ms="3734" status="FAIL">
+        <test-method signature="verifyHomePageTitletest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:30:45 GMT-05:00" name="verifyHomePageTitletest" finished-at="2023-01-07T13:30:45 GMT-05:00" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitletest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:30:45 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:30:46 GMT-05:00" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:30:46 GMT-05:00" name="setUp" finished-at="2023-01-07T13:30:57 GMT-05:00" duration-ms="10593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyuserName()[pri:2, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:30:57 GMT-05:00" name="verifyuserName" finished-at="2023-01-07T13:30:58 GMT-05:00" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyuserName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:30:58 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:30:59 GMT-05:00" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:30:59 GMT-05:00" name="setUp" finished-at="2023-01-07T13:31:08 GMT-05:00" duration-ms="9547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactsLink()[pri:3, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:31:08 GMT-05:00" name="verifyContactsLink" finished-at="2023-01-07T13:31:09 GMT-05:00" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:31:09 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:31:10 GMT-05:00" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:31:10 GMT-05:00" name="setUp" finished-at="2023-01-07T13:31:20 GMT-05:00" duration-ms="10129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDealsLink()[pri:4, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:31:20 GMT-05:00" name="verifyDealsLink" finished-at="2023-01-07T13:31:21 GMT-05:00" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDealsLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:31:21 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:31:22 GMT-05:00" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:31:22 GMT-05:00" name="setUp" finished-at="2023-01-07T13:31:32 GMT-05:00" duration-ms="9868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCompaniesLink()[pri:5, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:31:32 GMT-05:00" name="verifyCompaniesLink" finished-at="2023-01-07T13:31:32 GMT-05:00" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompaniesLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:31:32 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:31:33 GMT-05:00" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:31:33 GMT-05:00" name="setUp" finished-at="2023-01-07T13:31:43 GMT-05:00" duration-ms="9777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDocumentsLink()[pri:6, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:31:43 GMT-05:00" name="verifyDocumentsLink" finished-at="2023-01-07T13:31:44 GMT-05:00" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDocumentsLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@663c9e7a]" started-at="2023-01-07T13:31:44 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:31:45 GMT-05:00" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3646a422]" started-at="2023-01-07T13:30:11 GMT-05:00" name="setUp" finished-at="2023-01-07T13:30:17 GMT-05:00" duration-ms="6185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@3646a422]" started-at="2023-01-07T13:30:17 GMT-05:00" name="loginPageTitleTest" finished-at="2023-01-07T13:30:17 GMT-05:00" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3646a422]" started-at="2023-01-07T13:30:17 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:30:18 GMT-05:00" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3646a422]" started-at="2023-01-07T13:30:18 GMT-05:00" name="setUp" finished-at="2023-01-07T13:30:23 GMT-05:00" duration-ms="4862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="crmLogoImagetest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@3646a422]" started-at="2023-01-07T13:30:23 GMT-05:00" name="crmLogoImagetest" finished-at="2023-01-07T13:30:23 GMT-05:00" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmLogoImagetest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3646a422]" started-at="2023-01-07T13:30:23 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:30:24 GMT-05:00" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3646a422]" started-at="2023-01-07T13:30:24 GMT-05:00" name="setUp" finished-at="2023-01-07T13:30:29 GMT-05:00" duration-ms="4787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@3646a422]" started-at="2023-01-07T13:30:29 GMT-05:00" name="loginTest" finished-at="2023-01-07T13:30:34 GMT-05:00" duration-ms="5311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3646a422]" started-at="2023-01-07T13:30:34 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:30:35 GMT-05:00" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.ConatactsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@19e4653c]" started-at="2023-01-07T13:31:45 GMT-05:00" name="setUp" finished-at="2023-01-07T13:31:55 GMT-05:00" duration-ms="10861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactsPageLable()[pri:1, instance:com.crm.qa.testcases.ConatactsPageTest@19e4653c]" started-at="2023-01-07T13:31:55 GMT-05:00" name="verifyContactsPageLable" finished-at="2023-01-07T13:31:55 GMT-05:00" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@19e4653c]" started-at="2023-01-07T13:31:55 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:31:56 GMT-05:00" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@19e4653c]" started-at="2023-01-07T13:31:57 GMT-05:00" name="setUp" finished-at="2023-01-07T13:32:07 GMT-05:00" duration-ms="10634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectNewcontactspage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.ConatactsPageTest@19e4653c]" started-at="2023-01-07T13:32:07 GMT-05:00" name="selectNewcontactspage" data-provider="getCRMTestData" finished-at="2023-01-07T13:32:11 GMT-05:00" duration-ms="3202" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -53,26 +191,26 @@
           </params>
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[The element reference of <div class="ui selection dropdown" name="category"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5c481154-25a4-4c73-ae7b-9c13d682e9e7, clickElement {id=0b13a2c3-554d-4511-96ca-a7a437722cdd}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:37783, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13768, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:37783/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on WINDOWS (5c481154-25a4-4c73-ae7b-9c13d682e9e7)] -> xpath: //div[@name='category' and @role='listbox']]
-Session ID: 5c481154-25a4-4c73-ae7b-9c13d682e9e7]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [058f94a31e5ef4921dda6659582eb43d, findChildElement {id=a4e437ca-7829-4c03-ad64-194da911feb5, using=xpath, value=//span[contains(text(),'Customer')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57233}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57233/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 058f94a31e5ef4921dda6659582eb43d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element reference of <div class="ui selection dropdown" name="category"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5c481154-25a4-4c73-ae7b-9c13d682e9e7, clickElement {id=0b13a2c3-554d-4511-96ca-a7a437722cdd}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:37783, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13768, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:37783/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on WINDOWS (5c481154-25a4-4c73-ae7b-9c13d682e9e7)] -> xpath: //div[@name='category' and @role='listbox']]
-Session ID: 5c481154-25a4-4c73-ae7b-9c13d682e9e7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [058f94a31e5ef4921dda6659582eb43d, findChildElement {id=a4e437ca-7829-4c03-ad64-194da911feb5, using=xpath, value=//span[contains(text(),'Customer')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57233}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57233/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 058f94a31e5ef4921dda6659582eb43d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -85,16 +223,18 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:227)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at com.sun.proxy.$Proxy16.click(Unknown Source)
-at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:61)
-at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:68)
+at com.sun.proxy.$Proxy17.findElement(Unknown Source)
+at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:63)
+at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:73)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -129,15 +269,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectNewcontactspage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@3e27aa33]" started-at="2022-12-21T15:12:11 GMT-05:00" name="tearDown" finished-at="2022-12-21T15:12:12 GMT-05:00" duration-ms="907" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@19e4653c]" started-at="2023-01-07T13:32:11 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:32:12 GMT-05:00" duration-ms="933" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@3e27aa33]" started-at="2022-12-21T15:12:12 GMT-05:00" name="setUp" finished-at="2022-12-21T15:12:25 GMT-05:00" duration-ms="12372" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@19e4653c]" started-at="2023-01-07T13:32:12 GMT-05:00" name="setUp" finished-at="2023-01-07T13:32:22 GMT-05:00" duration-ms="10814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="selectNewcontactspage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.ConatactsPageTest@3e27aa33]" started-at="2022-12-21T15:12:25 GMT-05:00" name="selectNewcontactspage" data-provider="getCRMTestData" finished-at="2022-12-21T15:12:59 GMT-05:00" duration-ms="34084" status="FAIL">
+        <test-method signature="selectNewcontactspage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.ConatactsPageTest@19e4653c]" started-at="2023-01-07T13:32:22 GMT-05:00" name="selectNewcontactspage" data-provider="getCRMTestData" finished-at="2023-01-07T13:32:56 GMT-05:00" duration-ms="33389" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -167,24 +307,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: //div[@name='category' and @role='listbox']
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@name='category' and @role='listbox']"}
+  (Session info: chrome=108.0.5359.125)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [a21556fe-60c7-4f6c-9642-75033697cfe1, findElement {using=xpath, value=//div[@name='category' and @role='listbox']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:39649, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22056, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:39649/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a21556fe-60c7-4f6c-9642-75033697cfe1]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5642d826750e9f76b53f04625422403a, findElement {using=xpath, value=//div[@name='category' and @role='listbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57286}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57286/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5642d826750e9f76b53f04625422403a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@name='category' and @role='listbox']
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@name='category' and @role='listbox']"}
+  (Session info: chrome=108.0.5359.125)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [a21556fe-60c7-4f6c-9642-75033697cfe1, findElement {using=xpath, value=//div[@name='category' and @role='listbox']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:39649, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22056, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:39649/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a21556fe-60c7-4f6c-9642-75033697cfe1
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5642d826750e9f76b53f04625422403a, findElement {using=xpath, value=//div[@name='category' and @role='listbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57286}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57286/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5642d826750e9f76b53f04625422403a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -203,9 +345,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy16.findElement(Unknown Source)
+at com.sun.proxy.$Proxy17.findElement(Unknown Source)
 at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:63)
-at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:68)
+at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:73)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -240,15 +382,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectNewcontactspage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@3e27aa33]" started-at="2022-12-21T15:12:59 GMT-05:00" name="tearDown" finished-at="2022-12-21T15:12:59 GMT-05:00" duration-ms="779" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@19e4653c]" started-at="2023-01-07T13:32:56 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:32:57 GMT-05:00" duration-ms="887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@3e27aa33]" started-at="2022-12-21T15:12:59 GMT-05:00" name="setUp" finished-at="2022-12-21T15:13:13 GMT-05:00" duration-ms="13661" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@19e4653c]" started-at="2023-01-07T13:32:57 GMT-05:00" name="setUp" finished-at="2023-01-07T13:33:07 GMT-05:00" duration-ms="10718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="selectNewcontactspage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.ConatactsPageTest@3e27aa33]" started-at="2022-12-21T15:13:13 GMT-05:00" name="selectNewcontactspage" data-provider="getCRMTestData" finished-at="2022-12-21T15:13:47 GMT-05:00" duration-ms="34068" status="FAIL">
+        <test-method signature="selectNewcontactspage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.ConatactsPageTest@19e4653c]" started-at="2023-01-07T13:33:07 GMT-05:00" name="selectNewcontactspage" data-provider="getCRMTestData" finished-at="2023-01-07T13:33:11 GMT-05:00" duration-ms="3415" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -276,26 +418,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[Unable to locate element: //div[@name='category' and @role='listbox']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [cc89e923-df62-44f4-86a7-ba1887617abc, findElement {using=xpath, value=//div[@name='category' and @role='listbox']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:38308, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19696, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:38308/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: cc89e923-df62-44f4-86a7-ba1887617abc]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e16f17a71d543c3be37a0ab4a23a0bc1, findChildElement {id=2ecfa8ad-57d5-41c6-af33-eb3eb0e5a823, using=xpath, value=//span[contains(text(),'Lead')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57339/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e16f17a71d543c3be37a0ab4a23a0bc1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@name='category' and @role='listbox']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [cc89e923-df62-44f4-86a7-ba1887617abc, findElement {using=xpath, value=//div[@name='category' and @role='listbox']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:38308, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19696, moz:profile: C:\Users\pvish\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:38308/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: cc89e923-df62-44f4-86a7-ba1887617abc
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e16f17a71d543c3be37a0ab4a23a0bc1, findChildElement {id=2ecfa8ad-57d5-41c6-af33-eb3eb0e5a823, using=xpath, value=//span[contains(text(),'Lead')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\pvish\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57339/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e16f17a71d543c3be37a0ab4a23a0bc1
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -311,12 +455,15 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy16.findElement(Unknown Source)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:227)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy17.findElement(Unknown Source)
 at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:63)
-at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:68)
+at com.crm.qa.testcases.ConatactsPageTest.selectNewcontactspage(ConatactsPageTest.java:73)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -347,15 +494,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectNewcontactspage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@3e27aa33]" started-at="2022-12-21T15:13:47 GMT-05:00" name="tearDown" finished-at="2022-12-21T15:13:48 GMT-05:00" duration-ms="790" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ConatactsPageTest@19e4653c]" started-at="2023-01-07T13:33:11 GMT-05:00" name="tearDown" finished-at="2023-01-07T13:33:12 GMT-05:00" duration-ms="831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.ConatactsPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
